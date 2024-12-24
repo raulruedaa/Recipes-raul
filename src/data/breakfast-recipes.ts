@@ -8,7 +8,7 @@ export const breakfastRecipes: Recipe[] = [
     image: 'https://images.unsplash.com/photo-1510693206972-df098062cb71?auto=format&fit=crop&q=80&w=1080',
     ingredients: [
       '2–3 eggs',
-      '1 tablespoon butter or oil detalhe: O Ramón é GAY, bastante por sinal',
+      '1 tablespoon butter or oil detalhe: O Ramón é GAY, bastante por sinal não foi',
       'Salt and pepper (to taste)'
     ],
     instructions: [
