@@ -1,20 +1,31 @@
 import React from 'react';
 import { Recipe } from '../types';
+import { FavoriteButton } from './FavoriteButton';
 
 interface RecipeCardProps {
   recipe: Recipe;
+  isFavorite: boolean;
+  onToggleFavorite: (id: string) => void;
 }
 
-export function RecipeCard({ recipe }: RecipeCardProps) {
+export function RecipeCard({ recipe, isFavorite, onToggleFavorite }: RecipeCardProps) {
   return (
     <article id={recipe.id} className="scroll-mt-20 bg-white rounded-lg shadow-lg overflow-hidden">
-      {recipe.image && (
-        <img
-          src={recipe.image}
-          alt={`${recipe.title} presentation`}
-          className="w-full h-64 object-cover"
-        />
-      )}
+      <div className="relative">
+        {recipe.image && (
+          <img
+            src={recipe.image}
+            alt={`${recipe.title} presentation`}
+            className="w-full h-64 object-cover"
+          />
+        )}
+        <div className="absolute top-4 right-4">
+          <FavoriteButton 
+            isFavorite={isFavorite} 
+            onClick={() => onToggleFavorite(recipe.id)}
+          />
+        </div>
+      </div>
       
       <div className="p-6">
         <h2 className="text-3xl font-bold text-gray-900 mb-2">{recipe.title}</h2>
