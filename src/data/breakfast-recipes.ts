@@ -9,7 +9,7 @@ export const breakfastRecipes: Recipe[] = [
     ingredients: [
       '2–3 eggs',
       '1 tablespoon butter or oil',
-      'Salt and pepper (to taste)'
+      'Salt and pepper (to taste) cpa tinha que ser no main branch 😇'
     ],
     instructions: [
       'Crack eggs into a bowl and whisk gently with a pinch of salt and pepper',
