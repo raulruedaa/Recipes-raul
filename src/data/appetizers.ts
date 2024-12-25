@@ -7,6 +7,7 @@ export const appetizers: Recipe[] = [
     description: 'A fresh and colorful Mediterranean salad with crisp vegetables and tangy feta cheese.',
     image: 'https://images.unsplash.com/photo-1609167830220-7164aa360951?auto=format&fit=crop&q=80&w=1080',
     ingredients: [
+      'A pfizer... ta passada?',
       '1 cucumber, chopped',
       '2 tomatoes, chopped',
       '1 small red onion, thinly sliced',
