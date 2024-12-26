@@ -7,15 +7,14 @@ export const appetizers: Recipe[] = [
     description: 'A fresh and colorful Mediterranean salad with crisp vegetables and tangy feta cheese.',
     image: 'https://images.unsplash.com/photo-1609167830220-7164aa360951?auto=format&fit=crop&q=80&w=1080',
     ingredients: [
-      'A pfizer... ta passada?',
-      '1 cucumber, chopped',
-      '2 tomatoes, chopped',
-      '1 small red onion, thinly sliced',
-      'A handful of olives (Kalamata preferred)',
-      'Feta cheese (crumbled)',
-      '2 tablespoons olive oil',
-      '1 tablespoon red wine vinegar',
-      'Salt and pepper (to taste)'
+      'Um pepino que não está mais em crise existencial, picado',
+      '2 tomates que finalmente encontraram seu propósito, picados',
+      '1 cebola roxa pequena, finamente fatiada (ela insiste que é a mais fashion)',
+      'Um punhado de azeitonas que adoram festas (Kalamata preferidas)',
+      'Queijo feta que se desintegrou de tanto rir (esfarelado)',
+      '2 colheres de sopa de azeite que sonha em ser perfume',
+      '1 colher de sopa de vinagre de vinho tinto que acha que é vinho de verdade',
+      'Sal e pimenta, a gosto (eles sempre têm a última palavra)'
     ],
     instructions: [
       'In a large bowl, combine cucumber, tomatoes, and onion',
@@ -30,12 +29,12 @@ export const appetizers: Recipe[] = [
     description: 'Classic Italian appetizer featuring fresh tomatoes, melted mozzarella, and aromatic basil.',
     image: 'https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&q=80&w=1080',
     ingredients: [
-      '1 baguette (sliced)',
-      '2 tomatoes, diced',
-      '1 tablespoon olive oil',
-      '1 clove garlic, minced',
-      'Fresh mozzarella, sliced',
-      'Salt, pepper, and basil leaves (to taste)'
+      '1 baguete que sempre quis ser uma estrela de cinema (fatiada)',
+      '2 tomates que adoram dançar salsa, picados',
+      '1 colher de sopa de azeite que pensa que é um elixir mágico',
+      '1 dente de alho que adora contar histórias, picado',
+      'Mozzarella fresca que derrete de tanto amor, fatiada',
+      'Sal, pimenta e folhas de manjericão que acham que são coroas (a gosto)'
     ],
     instructions: [
       'Preheat oven to 375°F (190°C)',
